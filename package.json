@@ -1,0 +1,22 @@
+{
+  "name": "xharktank",
+  "version": "1.0.0",
+  "description": "My backend for xharktank...",
+  "main": "index.js",
+  "scripts": {
+    "start":"pm2 start index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "skp",
+  "license": "ISC",
+  "dependencies": {
+    "http": "0.0.1-security",
+    "express":"^4.17.3",
+    "cors":"^2.8.5",
+    "joi":"^17.6.0",
+    "mongoose": "^6.2.10",
+    "socket.io": "^4.4.1",
+    "pm2":"^5.2.0",
+    "config":"^3.3.7"
+  }
+}
